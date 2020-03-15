@@ -49,7 +49,7 @@ app.post("/", function(req, res) {
     url: "https://us4.api.mailchimp.com/3.0/lists/8d8dc0be1f",
     method: "POST",
     headers: {
-      Authorization: "abhisek d93208e7fba89e3d3450fa5d3503cdd2-us4"
+      Authorization: "abhisek mailchimp-key"
 
 
     },
@@ -89,10 +89,3 @@ app.listen(process.env.PORT||3000, function() {
   console.log("Server is started ");
 });
 
-
-
-// Api key
-// d93208e7fba89e3d3450fa5d3503cdd2-us4
-
-// list id
-//8d8dc0be1f
